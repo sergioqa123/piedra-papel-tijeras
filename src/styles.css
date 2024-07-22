@@ -28,10 +28,6 @@ p {
     padding: 20px;
 }
 
-#texto {
-    display: none;
-}
-
 button {
     background: linear-gradient(white, CadetBlue);
     border: 2px solid CadetBlue;
