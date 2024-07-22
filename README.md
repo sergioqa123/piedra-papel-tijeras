@@ -1,7 +1,7 @@
 # Piedra, papel o tijeras
 Juego de piedra, papel o tijeras usando HTML, CSS y JavaScript.  
 
-Pruébalo aquí: https://sergioqa123.github.io/piedra-papel-tijeras/
+Pruébalo aquí: <a href="https://sergioqa123.github.io/piedra-papel-tijeras/" target="_blank">
   
 Vista previa desde escritorio:  
   
@@ -9,4 +9,4 @@ Vista previa desde escritorio:
 
 Vista previa desde móvil:
 
-<img src="./img/ppot-mb.jpg" alt="vista previa mobile" width="500">
+<img src="./img/ppot-mb.png" alt="vista previa mobile" width="500">
