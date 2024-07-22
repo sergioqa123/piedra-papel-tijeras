@@ -9,4 +9,4 @@ Vista previa desde escritorio:
 
 Vista previa desde móvil:
 
-<img src="./img/ppot-mb.png" alt="vista previa mobile">
+<img src="./img/ppot-mb.jpg" alt="vista previa mobile">
