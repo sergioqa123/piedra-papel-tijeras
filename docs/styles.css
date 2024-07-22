@@ -36,3 +36,17 @@ button {
     height: 40px;
     font-weight:bold;
 }
+
+@media (max-width: 600px) {
+    #juego {
+        width: 300px;
+    }
+    #controles {
+        height: 200px;
+        flex-direction: column;
+        align-items: center;
+    }
+    button {
+        width: 200px;
+    }
+}
