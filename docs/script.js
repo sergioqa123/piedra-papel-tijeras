@@ -8,7 +8,7 @@ let boton3 = document.querySelector("#boton3");
 // Valores iniciales
 let tuScore = 0;
 let pcScore = 0;
-let resultado = "Presiona un botón para empezar."
+let resultado = ""
 let modoActual = 0;
 
 const objetos = [
@@ -66,7 +66,8 @@ function jugar(objeto) {
     }
     tuScoreTexto.innerText = tuScore;
     pcScoreTexto.innerText = pcScore;
-    resultadoTexto.innerText = resultado + "\nTú escogiste: " + eleccionTu.nombre + ".\nPC escogió: " + eleccionPc.nombre;
+    resultadoTexto.innerHTML = "<strong>" + resultado + "</strong><br><br>";
+    resultadoTexto.innerHTML += "Tú escogiste:" + eleccionTu.nombre + ". <br> PC escogió: " + eleccionPc.nombre;
 }
 
 //Funciones de elección
@@ -86,6 +87,8 @@ function jugarTijeras(){
 function continuar(){
     modoActual--;
     cargarValores();
+    resultado = "Presiona un botón para jugar.";
+    resultadoTexto.innerText = resultado;
 }
 
 function reiniciar(){
